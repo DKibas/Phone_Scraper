@@ -1,5 +1,5 @@
-Scrapy Spider for www.produc􏰁ndetail.com
-This README file provides instructions on how to run the Scrapy spider for scraping phone data from the website www.produc􏰁ndetail.com and storing the collected data in a MongoDB database running on your localhost.
+Scrapy Spider for www.productindetail.com
+This README file provides instructions on how to run the Scrapy spider for scraping phone data from the website www.producinndetail.com and storing the collected data in a MongoDB database running on your localhost.
 
 Prerequisites
 Before you can run the Scrapy spider and set up the MongoDB database, make sure you have the following prerequisites installed on your machine:
@@ -37,11 +37,11 @@ Run the Spider: Run the Scrapy spider using the following command:
 bash
 Copy code
 scrapy crawl phones
-The spider will start scraping phone data from www.produc􏰁ndetail.com. It will crawl multiple pages if pagination is available on the website.
+The spider will start scraping phone data from www.producinndetail.com. It will crawl multiple pages if pagination is available on the website.
 
 Check MongoDB: After the spider completes its job, you can check your MongoDB database to see the collected phone data in the "phones" collection.
 Important Notes
-The Scrapy spider is named "phones" and targets the main page of www.produc􏰁ndetail.com.
+The Scrapy spider is named "phones" and targets the main page of www.productindetail.com.
 
 The spider extracts data for each phone, including product name, brand, description, operating system, display technology, and image URL.
 
@@ -51,4 +51,4 @@ The spider may require adjustments if the website's structure changes in the fut
 
 Ensure that your MongoDB server is running before running the spider, and double-check the MongoDB configuration in the spider script.
 
-By following these instructions, you can scrape phone data from www.produc􏰁ndetail.com and store it in a MongoDB database on your localhost.
+By following these instructions, you can scrape phone data from www.productindetail.com and store it in a MongoDB database on your localhost.
